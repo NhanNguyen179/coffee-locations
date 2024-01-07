@@ -1,10 +1,10 @@
 {
-  "name": "nextjs-tailwind-campaign-page",
+  "name": "coffe-locations",
   "version": "1.0.0",
   "private": true,
-  "author": "Creative Tim",
-  "license": "See license in https://www.creative-tim.com/license",
-  "homepage": "https://demos.creative-tim.com/nextjs-tailwind-campaign-page",
+  "author": "Nhan Nguyen",
+  "license": "",
+  "homepage": "",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
