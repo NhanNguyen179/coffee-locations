@@ -1,4 +1,3 @@
-"use client";
 
 import React from "react";
 import {
@@ -76,14 +75,8 @@ export function BackToSchoolBooks() {
   return (
     <section className="px-8 pt-20 pb-10">
       <div className="container mx-auto mb-20 text-center">
-        <Typography
-          variant="paragraph"
-          color="blue-gray"
-          className="mb-3 font-bold uppercase" placeholder={undefined}        >
-          up to 40% OFF
-        </Typography>
         <Typography variant="h1" color="blue-gray" className="mb-2" placeholder={undefined}>
-          Back-to-School Books
+          Địa điểm nổi bật theo danh mục
         </Typography>
         <Typography
           variant="lead"

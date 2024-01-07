@@ -15,26 +15,26 @@ const CATEGORIES = [
   {
     img: "/image/blogs/blog-3.png",
     icon: HeartIcon,
-    title: "Fiction Books",
-    desc: "up to 40% OFF",
+    title: "Cà phê",
+    desc: "Coffee",
   },
   {
     img: "/image/blogs/blog-12.jpeg",
     icon: PuzzlePieceIcon,
-    title: "School Books",
-    desc: "up to 40% OFF",
+    title: "Spa",
+    desc: "",
   },
   {
     img: "/image/blogs/blog-10.jpeg",
     icon: GlobeEuropeAfricaIcon,
-    title: "Non-fiction Books",
-    desc: "up to 40% OFF",
+    title: "Hotel",
+    desc: "",
   },
   {
     img: "/image/blogs/blog-13.png",
     icon: MicrophoneIcon,
-    title: "SF & Fantasy Books",
-    desc: "up to 40% OFF",
+    title: "Địa điểm nổi tiếng",
+    desc: "Famous Place",
   },
 ];
 
@@ -43,11 +43,7 @@ export function TopBookCategories() {
     <section className="container mx-auto px-8 pb-20 pt-20 lg:pt-0">
       <div className="mb-20 grid place-items-center text-center">
         <Typography variant="h2" color="blue-gray" className="my-3" placeholder={undefined}>
-          Top Book Categories
-        </Typography>
-        <Typography variant="lead" className="!text-gray-500 lg:w-6/12" placeholder={undefined}>
-          Explore our diverse range of categories and embark on a reading
-          journey that suits your mood, passion, or curiosity.
+          Tìm kiếm nhiều nhất
         </Typography>
       </div>
       <div className="grid grid-cols-1 gap-6 lg:grid-cols-3">

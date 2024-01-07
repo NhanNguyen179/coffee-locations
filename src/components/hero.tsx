@@ -5,33 +5,22 @@ import { Button, Typography } from "@material-tailwind/react";
 
 function Hero() {
   return (
-    <header className="mt-12 bg-white px-8">
+    <header className="bg-[url('/image/background/da-nang-homebg.jpeg')] aspect-video bg-no-repeat bg-cover px-8">
       <div className="container mx-auto grid h-full min-h-[65vh] w-full grid-cols-1 place-items-center gap-y-10 lg:grid-cols-2">
         <div className="row-start-2 lg:row-auto lg:-mt-40">
           <Typography
             variant="h1"
-            color="red"
-            className="text-3xl !leading-snug" placeholder={undefined}          >
-            40% OFF
-          </Typography>
-          <Typography
-            variant="h1"
             color="blue-gray"
-            className="mb-2 max-w-sm text-3xl !leading-snug lg:mb-3 lg:text-5xl" placeholder={undefined}          >
-            Back-to-School Campaign
+            className="mb-2 text-2xl !leading-snug lg:mb-3 lg:text-5xl text-white" placeholder={undefined}          >
+            Đà Nẵng City 
           </Typography>
           <Typography
             variant="lead"
-            className="mb-6 font-normal !text-gray-500 md:pr-16 xl:pr-28" placeholder={undefined}          >
-            We&apos;ve got everything you need to make this school year a
-            smashing success! Whether you&apos;re a student, parent, or
-            educator, we&apos;ve got everything you need.
+            className="mb-6 text-lg lg:text-2xl font-normal !text-gray-200 md:pr-16 xl:pr-28" placeholder={undefined}          >
+            Chào mừng đến với ĐÀ NẴNG LOCATION - Nơi bạn dễ dàng tìm kiếm và khám phá các địa điểm phù hợp với nhu cầu cá nhân tại Đà Nẵng. Tận hưởng trải nghiệm du lịch và giải trí một cách thuận tiện nhất với sự hỗ trợ đắc lực từ chúng tôi!
           </Typography>
-          <Button size="lg" color="gray" placeholder={undefined}>
-            see offers
-          </Button>
         </div>
-        <div className="mt-40 grid gap-6 lg:mt-0">
+        {/* <div className="mt-40 grid gap-6 lg:mt-0">
           <div className="grid grid-cols-4 gap-6">
             <Image
               width={768}
@@ -86,7 +75,7 @@ function Hero() {
               alt="flowers"
             />
           </div>
-        </div>
+        </div> */}
       </div>
     </header>
   );
