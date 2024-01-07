@@ -11,26 +11,23 @@ function Hero() {
           <Typography
             variant="h1"
             color="red"
-            className="text-3xl !leading-snug"
-          >
+            className="text-3xl !leading-snug" placeholder={undefined}          >
             40% OFF
           </Typography>
           <Typography
             variant="h1"
             color="blue-gray"
-            className="mb-2 max-w-sm text-3xl !leading-snug lg:mb-3 lg:text-5xl"
-          >
+            className="mb-2 max-w-sm text-3xl !leading-snug lg:mb-3 lg:text-5xl" placeholder={undefined}          >
             Back-to-School Campaign
           </Typography>
           <Typography
             variant="lead"
-            className="mb-6 font-normal !text-gray-500 md:pr-16 xl:pr-28"
-          >
+            className="mb-6 font-normal !text-gray-500 md:pr-16 xl:pr-28" placeholder={undefined}          >
             We&apos;ve got everything you need to make this school year a
             smashing success! Whether you&apos;re a student, parent, or
             educator, we&apos;ve got everything you need.
           </Typography>
-          <Button size="lg" color="gray">
+          <Button size="lg" color="gray" placeholder={undefined}>
             see offers
           </Button>
         </div>

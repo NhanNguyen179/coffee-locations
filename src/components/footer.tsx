@@ -15,8 +15,7 @@ export function Footer() {
               href="https://www.material-tailwind.com"
               target="_blank"
               variant="h4"
-              className="mb-6"
-            >
+              className="mb-6"  placeholder={undefined}            >
               Material Tailwind
             </Typography>
             <ul className="flex flex-wrap items-center justify-center md:justify-start">
@@ -25,10 +24,7 @@ export function Footer() {
                   <Typography
                     as="a"
                     href="#"
-                    className={`py-1 font-medium !text-gray-700 transition-colors hover:!text-gray-900 ${
-                      idx === 0 ? "pr-3" : "px-3"
-                    }`}
-                  >
+                    className={`py-1 font-medium !text-gray-700 transition-colors hover:!text-gray-900 ${idx === 0 ? "pr-3" : "px-3"}`}  placeholder={undefined}                  >
                     {link}
                   </Typography>
                 </li>
@@ -36,20 +32,20 @@ export function Footer() {
             </ul>
           </div>
           <div className="w-full sm:w-[24rem] sm:min-w-[24rem]">
-            <Typography variant="h6" color="blue-gray" className="mb-3">
+            <Typography variant="h6" color="blue-gray" className="mb-3"  placeholder={undefined}>
               Our Newsletter
             </Typography>
             <div className="flex flex-col gap-3 sm:flex-row">
               {/* @ts-ignore */}
               <Input color="gray" label="Enter your email" />
-              <Button color="gray" className="flex-shrink-0">
+              <Button color="gray" className="flex-shrink-0"  placeholder={undefined}>
                 subscribe
               </Button>
             </div>
           </div>
         </div>
         <div className="mt-16 flex flex-wrap items-center justify-center gap-y-4 gap-x-8 border-t border-blue-gray-50 py-6 md:justify-between">
-          <Typography className="text-center font-normal !text-gray-700">
+          <Typography className="text-center font-normal !text-gray-700"  placeholder={undefined}>
             &copy; {CURRENT_YEAR} Made with{" "}
             <a href="https://www.material-tailwind.com" target="_blank">
               Material Tailwind
@@ -67,10 +63,7 @@ export function Footer() {
                 <Typography
                   as="a"
                   href="#"
-                  className={`py-1 font-normal !text-gray-700 transition-colors hover:!text-gray-900 ${
-                    idx === SUB_LINKS.length - 1 ? "pl-2" : "px-2"
-                  }`}
-                >
+                  className={`py-1 font-normal !text-gray-700 transition-colors hover:!text-gray-900 ${idx === SUB_LINKS.length - 1 ? "pl-2" : "px-2"}`}  placeholder={undefined}                >
                   {link}
                 </Typography>
               </li>

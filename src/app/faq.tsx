@@ -34,13 +34,12 @@ export function Faq() {
     <section className="px-8 py-40">
       <div className="container mx-auto">
         <div className="text-center">
-          <Typography variant="h1" color="blue-gray" className="mb-4">
+          <Typography variant="h1" color="blue-gray" className="mb-4" placeholder={undefined}>
             Frequently Asked Questions
           </Typography>
           <Typography
             variant="lead"
-            className="mx-auto mb-24 w-full max-w-2xl !text-gray-500"
-          >
+            className="mx-auto mb-24 w-full max-w-2xl !text-gray-500" placeholder={undefined}          >
             The Back-to-School Campaign is a special promotion designed to make
             your return to school as smooth as possible.
           </Typography>
@@ -50,16 +49,14 @@ export function Faq() {
             <Accordion
               key={key}
               open={open === key + 1}
-              onClick={() => handleOpen(key + 1)}
-            >
-              <AccordionHeader className="text-left text-gray-900">
+              onClick={() => handleOpen(key + 1)} placeholder={undefined}            >
+              <AccordionHeader className="text-left text-gray-900" placeholder={undefined}>
                 {title}
               </AccordionHeader>
               <AccordionBody>
                 <Typography
                   color="blue-gray"
-                  className="font-normal text-gray-500"
-                >
+                  className="font-normal text-gray-500" placeholder={undefined}                >
                   {desc}
                 </Typography>
               </AccordionBody>

@@ -79,17 +79,15 @@ export function BackToSchoolBooks() {
         <Typography
           variant="paragraph"
           color="blue-gray"
-          className="mb-3 font-bold uppercase"
-        >
+          className="mb-3 font-bold uppercase" placeholder={undefined}        >
           up to 40% OFF
         </Typography>
-        <Typography variant="h1" color="blue-gray" className="mb-2">
+        <Typography variant="h1" color="blue-gray" className="mb-2" placeholder={undefined}>
           Back-to-School Books
         </Typography>
         <Typography
           variant="lead"
-          className="mx-auto w-full px-4 !text-gray-500 lg:w-9/12"
-        >
+          className="mx-auto w-full px-4 !text-gray-500 lg:w-9/12" placeholder={undefined}        >
           We offer a wide range of study guides, test prep materials, and
           reference books. Whether you&apos;re tackling calculus or diving into
           Shakespeare, we&apos;ve got you covered.
@@ -100,8 +98,7 @@ export function BackToSchoolBooks() {
               className="h-12 bg-transparent"
               indicatorProps={{
                 className: "!bg-gray-900 rounded-lg",
-              }}
-            >
+              }} placeholder={undefined}            >
               {BOOKS_TABS.map((book) => (
                 <Tab
                   key={book}
@@ -109,8 +106,7 @@ export function BackToSchoolBooks() {
                   className={`!font-medium capitalize transition-all duration-300
                     ${activeTab === book ? "text-white" : "capitalize"}
                   `}
-                  onClick={() => setActiveTab(book)}
-                >
+                  onClick={() => setActiveTab(book)} placeholder={undefined}                >
                   {book}
                 </Tab>
               ))}
@@ -124,7 +120,7 @@ export function BackToSchoolBooks() {
         ))}
       </div>
       <div className="grid place-items-center">
-        <Button className="mt-32" variant="outlined">
+        <Button className="mt-32" variant="outlined" placeholder={undefined}>
           Show more
         </Button>
       </div>
